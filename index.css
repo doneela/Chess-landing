@@ -177,72 +177,6 @@
     margin-top: 4rem;
 }
 
-@media screen and (max-width:900px) {
-    .section {
-        background: rgb(27, 26, 26);
-    }
-    .land-pic {
-        width: 22rem;
-        height: 22rem;
-        transform: rotate(0deg);
-        margin-top: 8rem;
-    }
-    .heading {
-        font-size: 1.5rem;
-    }
-    .icon {
-        background: rgb(27, 26, 26);
-        z-index: 120;
-    }
-    .menu-text {
-        background: rgb(27, 26, 26);
-        z-index: 120;
-    }
-    .menu-icon {
-        background: rgb(27, 26, 26);
-        z-index: 120;
-    }
-    .two {
-        background: rgb(27, 26, 26);
-        z-index: 120;
-    }
-    .one {
-        background: rgb(27, 26, 26);
-        z-index: 120;
-        margin-left: 1rem;
-    }
-    .land-content:before {
-        display: none;
-    }
-    .land-content:after {
-        display: none;
-    }
-    .heading:before {
-        display: none;
-    }
-    .heading:after {
-        display: none;
-    }
-    .section {
-        height: 24.5rem;
-    }
-    .sub-head {
-        font-size: 0.7rem;
-        letter-spacing: 0.3rem;
-    }
-    .button {
-        width: 6rem;
-        height: 1.5rem;
-        top: 6rem;
-    }
-    .menu-wrapper:before {
-        display: none;
-    }
-    .menu-wrapper:after {
-        display: none;
-    }
-}
-
 .second_container {
     padding: 100px 300px;
     display: flex;
@@ -369,6 +303,75 @@ p.padding-bottom {
 /* mobile devices */
 
 
+/* By Doneela */
+
+@media screen and (max-width:900px) {
+    .section {
+        background: rgb(27, 26, 26);
+    }
+    .land-pic {
+        width: 22rem;
+        height: 22rem;
+        transform: rotate(0deg);
+        margin-top: 7rem;
+    }
+    .heading {
+        font-size: 1.5rem;
+    }
+    .icon {
+        background: rgb(27, 26, 26);
+        z-index: 120;
+    }
+    .menu-text {
+        background: rgb(27, 26, 26);
+        z-index: 120;
+    }
+    .menu-icon {
+        background: rgb(27, 26, 26);
+        z-index: 120;
+    }
+    .two {
+        background: rgb(27, 26, 26);
+        z-index: 120;
+    }
+    .one {
+        background: rgb(27, 26, 26);
+        z-index: 120;
+        margin-left: 1rem;
+    }
+    .land-content:before {
+        display: none;
+    }
+    .land-content:after {
+        display: none;
+    }
+    .heading:before {
+        display: none;
+    }
+    .heading:after {
+        display: none;
+    }
+    .section {
+        height: 24.5rem;
+    }
+    .sub-head {
+        font-size: 0.7rem;
+        letter-spacing: 0.3rem;
+    }
+    .button {
+        width: 6rem;
+        height: 1.5rem;
+        top: 6rem;
+    }
+    .menu-wrapper:before {
+        display: none;
+    }
+    .menu-wrapper:after {
+        display: none;
+    }
+}
+
+
 /**by Parijat**/
 
 @media only screen and (max-width: 688px) {
@@ -380,6 +383,10 @@ p.padding-bottom {
         padding-left: 70px;
         width: 400px;
     }
+    h1:after,
+    h1:before {
+        display: none;
+    }
 }
 
 
@@ -387,7 +394,14 @@ p.padding-bottom {
 
 @media screen and (max-width: 425px) {
     .second_container .textBox {
-        min-width: 300px;
+        min-width: 400px;
+    }
+    .second_container {
+        padding: 100px 20px;
+        min-width: 250px;
+    }
+    .button {
+        width: 0px;
     }
 }
 
