@@ -157,6 +157,7 @@
     align-items: center;
     position: relative;
     top: 8rem;
+    border-radius: 7px;
 }
 
 .land-button {
