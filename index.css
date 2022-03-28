@@ -230,4 +230,10 @@
         height: 1.5rem;
         top: 6rem;
     }
+    .menu-wrapper:before {
+        display: none;
+    }
+    .menu-wrapper:after {
+        display: none;
+    }
 }
